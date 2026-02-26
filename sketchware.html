@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحميل SKETCHWARE - TIGER TECHNOLOGY</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+<div class="sidebar" id="sidebar">
+<div class="logo">TIGER TECHNOLOGY</div>
+
+<a class="nav-link" href="index.html">🏠 الرئيسية</a>
+<a class="nav-link" href="apps.html">📱 تطبيقاتنا</a>
+<a class="nav-link" href="sketch.html">💻 مشاريع SKETCHWARE</a>
+<a class="nav-link" href="courses.html">🎓 الدورات التدريبية</a>
+<a class="nav-link" href="about.html">👤 عني</a>
+<a class="nav-link active sk-btn" href="sketchware.html">⬇️ تحميل SK</a>
+</div>
+
+<div class="main">
+
+<h1>تحميل SKETCHWARE PRO</h1>
+
+<p style="margin-bottom:30px;">
+تطبيق لإنشاء تطبيقات أندرويد باستخدام البرمجة بالكتل بطريقة سهلة وممتعة.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<h3>سهولة الاستخدام</h3>
+<p>واجهة سحب وإفلات بدون تعقيد برمجي.</p>
+</div>
+
+<div class="card">
+<h3>تصدير APK</h3>
+<p>إنشاء ملف APK وتجربته مباشرة على الهاتف.</p>
+</div>
+
+<div class="card">
+<h3>مناسب للمبتدئين</h3>
+<p>أفضل بداية لدخول عالم تطوير التطبيقات.</p>
+</div>
+
+</div>
+
+<div style="margin-top:40px;">
+
+<!-- تحميل البرنامج -->
+<button class="btn" onclick="startDownloadSK()">⬇️ بدء تحميل SKETCHWARE</button>
+<div id="countdownSK" style="margin-top:15px;font-size:18px;"></div>
+
+<a id="realDownloadSK"
+href="https://www.mediafire.com/file/c5dfnn2p17lnxqc/SKETCHWARE_PRO.apk/file"
+target="_blank"
+style="display:none;">
+<button class="btn" style="margin-top:15px;">تحميل SK الآن</button>
+</a>
+
+<hr style="margin:40px 0; opacity:0.2;">
+
+<!-- تحميل الملحقات -->
+<button class="btn" onclick="startAddonsDownload()">📦 تحميل الملحقات</button>
+<div id="countdownAddons" style="margin-top:15px;font-size:18px;"></div>
+
+<a id="realDownloadAddons"
+href="https://www.mediafire.com/file/7k0kkw1lc04zaaj/%25D9%2585%25D9%2584%25D8%25AD%25D9%2582%25D8%25A7%25D8%25AA_SKETCHWARE.7z/file"
+target="_blank"
+style="display:none;">
+<button class="btn" style="margin-top:15px;">تحميل الملحقات الآن</button>
+</a>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
